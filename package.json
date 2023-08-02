@@ -1,0 +1,29 @@
+{
+  "name": "notes-backend",
+  "version": "1.0.0",
+  "description": "database for notes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanidem/helsinky-notes.git"
+  },
+  "author": "Bryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanidem/helsinky-notes/issues"
+  },
+  "homepage": "https://github.com/bryanidem/helsinky-notes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
